@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Admin Portal!!!';
+  welcome = 'Welcome to Admin Portal';
+  login = 'If you have already an account then';
+  join = 'If you are new then';
+  display = 'Default';
 }
