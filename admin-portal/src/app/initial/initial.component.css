@@ -1,0 +1,65 @@
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 90%;
+    width: 100%;
+    background-color: rgb(227, 230, 225);
+    padding: 5%;
+    color: black;
+}
+.menu{
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    bottom: 0px;
+}
+.menu button{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /*transition: all 0.5s;*/
+    cursor: pointer;
+    font-size: 20px;
+}
+.menu button:focus{
+    border-right: 6px solid darkgreen;
+    background-color: lightgreen;
+    color: black;
+}
+.menu button:hover{
+    background-color: lightgreen;
+    color: black;
+}
+.menu button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.menu button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.menu button:hover span {
+    padding-right: 25px;
+}
+.menu button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.logo button{
+    float: right;
+    outline: none;
+}
+.logo button:hover{
+    background-color: darkgray;
+}

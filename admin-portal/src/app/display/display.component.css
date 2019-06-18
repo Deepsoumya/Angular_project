@@ -1,0 +1,16 @@
+.taskbar{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 90%;
+    width: 100%;
+    background-color: dimgrey;
+    padding: 1%;
+    color: white;
+}
+.maindisplay{
+    position: absolute;
+    top: 10%;
+    right: 0px;
+    bottom: 0px;
+}
